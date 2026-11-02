@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Himanshi Sharma | CSE student & full stack builder</title>
+<meta name="description" content="Portfolio of Himanshi Sharma, B.Tech CSE student in New Delhi. MERN projects, DSA in C++, and a sorting puzzle that unlocks my story.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧩</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <a class="logo" href="#top">Himanshi<span>.</span></a>
+  <nav aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#toolbox">Toolbox</a>
+    <a href="#work">Projects</a>
+    <a href="#sortme" class="play">Play 🧩</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div>
+    <p class="tag">B.Tech CSE · New Delhi · open to internships</p>
+    <h1>I build web apps,<br>then I <em>sort out</em> the bugs.</h1>
+    <p class="lead">I'm Himanshi, a second-year CS student at GGSIPU. I work in the MERN stack, practise DSA in C++, and learn fastest when I'm shipping something.</p>
+    <div class="cta">
+      <a class="btn solid" href="#work">See my projects</a>
+      <a class="btn" href="Himanshi_Sharma_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </div>
+  </div>
+  <a class="teaser" href="#sortme" aria-label="Jump to the sorting puzzle">
+    <span class="badge">psst, interactive</span>
+    <div class="mini" aria-hidden="true"><i>4</i><i>2</i><i>7</i><i>1</i></div>
+    <p><b>Sort me out.</b> Put 7 tiles in order to unlock my story. Takes about a minute.</p>
+    <span class="go">Play it ↓</span>
+  </a>
+</section>
+
+<section id="about" class="sec">
+  <h2>About</h2>
+  <div class="about">
+    <div>
+      <p>I started with C++ and DSA, then moved into web development because I wanted to see my code do something on a screen. Most things in my projects list began as "how hard could this be" and turned into a few weekends of docs and self-inflicted bugs.</p>
+      <p>Right now I'm getting comfortable with cloud basics (this site runs on AWS Amplify), solving DSA problems regularly, and taking small freelance web jobs for students and local businesses.</p>
+    </div>
+    <dl class="facts">
+      <div><dt>Studying</dt><dd>B.Tech CSE, GGSIPU (2025 to 2029)</dd></div>
+      <div><dt>CGPA</dt><dd>9.49</dd></div>
+      <div><dt>Focus</dt><dd>Full stack development</dd></div>
+      <div><dt>DSA</dt><dd>100+ problems in C++</dd></div>
+      <div><dt>Hackathons</dt><dd>3+</dd></div>
+      <div><dt>Mission</dt><dd>Build tech that helps real people</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="toolbox" class="sec">
+  <h2>Toolbox</h2>
+  <p class="sub">What I reach for, and what I use it for.</p>
+  <div id="tools" class="tools"></div>
+</section>
+
+<section id="work" class="sec">
+  <h2>Projects</h2>
+  <p class="sub">Learning projects included. That's where most of my growth came from.</p>
+  <ol id="projects" class="plist"></ol>
+</section>
+
+<section id="sortme" class="sec game">
+  <h2>Sort me out 🧩</h2>
+  <p class="sub">Each tile hides a piece of my story. Tap a tile, then tap another to swap them. When a tile lands in the right spot it flips open. Stuck? Watch bubble sort do it.</p>
+  <div class="bar">
+    <span id="moves" aria-live="polite">Swaps: 0</span>
+    <span id="best">Fewest possible: –</span>
+    <div class="btns">
+      <button id="auto" class="btn small">Watch bubble sort</button>
+      <button id="shuffle" class="btn small">Shuffle</button>
+    </div>
+  </div>
+  <div id="board" class="board" role="group" aria-label="Sorting puzzle"></div>
+  <p id="status" class="status" role="status"></p>
+  <div id="win" class="win" hidden>
+    <h3>Sorted. That's my story in order.</h3>
+    <p id="winMsg"></p>
+    <p>The next chapter could involve your team or your idea.</p>
+    <a class="btn solid" href="mailto:himanshisha1897@gmail.com?subject=Hello%20from%20your%20portfolio">Email me</a>
+  </div>
+</section>
+
+<section id="contact" class="sec">
+  <h2>Contact</h2>
+  <p class="sub">Email is fastest. I usually reply within a day.</p>
+  <div class="contact">
+    <a class="btn solid" href="mailto:himanshisha1897@gmail.com">himanshisha1897@gmail.com</a>
+    <a class="btn" href="https://github.com/himanshisharma18-wq" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://linkedin.com/in/himanshi-sharma-wq" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://leetcode.com/himanshisharma-wq" target="_blank" rel="noopener">LeetCode</a>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Himanshi Sharma · Hosted on AWS Amplify · Discord: bit_crusher_44579</footer>
+<script src="script.js"></script>
+</body>
+</html>
